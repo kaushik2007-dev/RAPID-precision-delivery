@@ -58,6 +58,8 @@ The baseline configuration currently uses the **AeroTech J99N** motor with no de
 
 ## Simulated Trajectory
 
+![RAPID Baseline Launch Vehicle](rocket_configuration.png)
+
 The baseline configuration was simulated using the **"PGV Insertion States"** run in OpenRocket.
 
 | Parameter | Result |
@@ -80,8 +82,8 @@ The simulation demonstrates that the baseline configuration can achieve an inser
 | File | Description |
 |---|---|
 | `rapid_pgv_lv.ork` | OpenRocket baseline launch vehicle design and simulation configuration |
-| OpenRocket data CSV | Raw flight data exported from OpenRocket |
-| Cleaned data CSV | Processed flight data prepared for downstream analysis and PGV guidance work |
+| `release_states_data.csv` | Raw flight data exported from OpenRocket |
+| `release_states_data_clean.csv` | Processed flight data prepared for downstream analysis and PGV guidance work |
 
 ---
 
