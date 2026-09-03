@@ -38,6 +38,19 @@ These outputs form the initial conditions for the PGV Guidance, Navigation and C
 | Motor class | J-class, 54 mm |
 | Delay charge | None |
 
+## Mass and Stability 
+
+extracted directly from `release_states_data_clean.csv`
+
+| Parameter | Value | Source |
+|---|---:|---|
+| Launch mass | 1725.03 g (1.725 kg) | Mass at t = 0 s |
+| Mass at motor burnout | 1169.5 g (1.170 kg) | Mass once motor mass plateaus at casing-only (343 g), at t ≈ 9.69 s |
+| Propellant mass burned | 555.5 g | Launch mass − burnout mass |
+| Stability margin (early flight, t = 0.3–2.0 s) | 0.95 – 1.55 calibers, mean 1.36 | `Stability margin calibers` column |
+
+**Interpretation:** the stability margin stays within the generally-accepted safe range (>1 caliber) for the majority of the early-flight window, dipping slightly below 1.0 only momentarily near launch-rod clearance (0.947 minimum) before settling to a healthy ~1.3–1.5 caliber margin — consistent with a stable, well-behaved ascent. This can replace the "[Final OpenRocket value]" placeholders in the main rocket sizing table.
+
 ### Motor Selection
 
 Multiple 54 mm I–J class motors were evaluated in OpenRocket during the sizing process:
