@@ -258,7 +258,6 @@ All values in this document were computed in a single, full-precision pass from 
 ├── v1_heading_vs_time.png
 ├── v1_altitude_vs_horizontal_distance.png
 ├── v1_range_vs_time.png
-├── v1_ground_termination.png
 │
 └── README.md
 ```

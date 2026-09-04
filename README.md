@@ -118,12 +118,12 @@ The current baseline produces the following results:
 | Metric | Result |
 |---|---:|
 | Rocket apogee | **1939.57 m** |
-| Maximum theoretical PGV range | **6263.18 m** |
+| Maximum theoretical PGV range | **6263.20 m** |
 | Nominal mission range | **5000.00 m** |
-| Initial heading error | **38.36°** |
+| Initial heading error | **38.39°** |
 | Heading correction time | **6.40 s** |
-| Guided ground miss | **49.44 m** |
-| Uncorrected ground miss | **3887.81 m** |
+| Guided ground miss | **49.42 m** |
+| Uncorrected ground miss | **3890.74 m** |
 | Terminal miss-distance reduction | **98.73%** |
 
 The simulation therefore demonstrates that the baseline guidance law can substantially reduce terminal miss distance relative to the corresponding uncorrected trajectory under the same simplified model.
